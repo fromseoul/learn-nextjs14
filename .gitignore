@@ -1,0 +1,68 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+
+# intellij에서 관리하는 intellij 개인 설정과 관련된 파일
+.idea
+/.idea
+/.idea/
+
+# dotenv environment variables file
+.env
+
+# 로컬에만 남겨두는 파일
+**/*_BACK.*
+
+# Sentry
+.sentryclirc
+
+
+# test 폴더(sample)
+/src/pages/test
+/src/pages/test/*.*
+
+
+# cypress
+cypress/videos
+cypress/screenshots
+.nyc_output
+
+
+# github BFG Repo-Cleaner 적용시 파일
+bfg-1.14.0.jar
+
+package-lock.json
